@@ -1,0 +1,16 @@
+derajat,metode,maks_galat_grid
+4,Lagrange seragam,0.4383566395255679
+4,Natural Cubic Spline,0.2793134658995243
+4,Lagrange Chebyshev,0.45998061437178733
+8,Lagrange seragam,1.045173911783697
+8,Natural Cubic Spline,0.056073644925167865
+8,Lagrange Chebyshev,0.20468213095111643
+12,Lagrange seragam,3.663375869940861
+12,Natural Cubic Spline,0.00690868779878806
+12,Lagrange Chebyshev,0.0843961914110728
+16,Lagrange seragam,14.393851285003437
+16,Natural Cubic Spline,0.003745402833395972
+16,Lagrange Chebyshev,0.03671289906931752
+20,Lagrange seragam,59.8223087107281
+20,Natural Cubic Spline,0.0031827727617368406
+20,Lagrange Chebyshev,0.01773777620513506

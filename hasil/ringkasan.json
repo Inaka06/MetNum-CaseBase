@@ -1,0 +1,64 @@
+{
+  "building": 2,
+  "floor": 3,
+  "ap": "WAP061",
+  "rows_floor": 2709,
+  "unique_locations_floor": 113,
+  "spatial_locations": 95,
+  "angle": 152,
+  "strip_center": 28.519818260553375,
+  "strip_points": 24,
+  "profile_points": 11,
+  "train_points": 8,
+  "test_points": 3,
+  "span": 84.09537353584244,
+  "max_offset": 0.8929086844634178,
+  "source_sha256": "893512b82dfd7a7c345d84195b1c8019fbca0fa0d7820ce491ce5aa45ec3782f",
+  "verification": {
+    "Lagrange manual vs SciPy": 1.9895196601282805e-13,
+    "Spline manual vs SciPy": 2.842170943040401e-14,
+    "Residual simpul Lagrange": 0.0,
+    "Residual simpul spline": 1.4210854715202004e-14
+  },
+  "contour_ranges": {
+    "RSSI terukur": [
+      -96.0,
+      -57.0
+    ],
+    "Kontur linear": [
+      -95.98528399046684,
+      -57.35022751124557
+    ],
+    "Kubik 2D diagnostik": [
+      -174.87863106164662,
+      108.55535644253287
+    ]
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "metrics": [
+    {
+      "metode": "Lagrange",
+      "MAE_dB": 1.558107068745007,
+      "RMSE_dB": 1.5967120030035664,
+      "maks_galat_dB": 2.0461864029918075
+    },
+    {
+      "metode": "Natural Cubic Spline",
+      "MAE_dB": 0.6050083836481311,
+      "RMSE_dB": 0.7466081865147934,
+      "maks_galat_dB": 1.1274336248980603
+    },
+    {
+      "metode": "Linear",
+      "MAE_dB": 0.34362280286607455,
+      "RMSE_dB": 0.39207341293084697,
+      "maks_galat_dB": 0.49335433583051724
+    }
+  ]
+}

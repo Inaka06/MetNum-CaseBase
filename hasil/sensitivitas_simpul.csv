@@ -1,0 +1,7 @@
+simpul,derajat_global,metode,RMSE_dB
+4,3,Lagrange,2.5435149991823494
+4,3,Natural Cubic Spline,2.4409643017901392
+6,5,Lagrange,1.6066269941659084
+6,5,Natural Cubic Spline,0.5348544000438553
+8,7,Lagrange,1.5967120030035664
+8,7,Natural Cubic Spline,0.7466081865147934
